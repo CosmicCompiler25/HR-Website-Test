@@ -1,0 +1,89 @@
+<div class="hrreach-shop" style="max-width:1200px;margin:0 auto;padding:4rem 1rem;">
+  <!-- Page Title -->
+  <header style="text-align:center;margin-bottom:3rem;">
+    <h1 style="font-size:2.5rem;font-weight:600;margin-bottom:0.5rem;">Shop</h1>
+    <p style="font-size:1.1rem;max-width:700px;margin:0 auto;color:#555;">
+      Explore our curated selection of digital tools, resources, and affiliate partners designed to help you grow your brand and business with ease.
+    </p>
+  </header>
+
+  <!-- Intro Section -->
+  <section style="margin-bottom:4rem;text-align:center;">
+    <p style="max-width:800px;margin:0 auto 1.5rem auto;line-height:1.7;">
+      At HR Reach, we’re passionate about helping people and businesses grow — and that extends beyond HR.
+      Alongside our professional HR services, we offer a range of digital marketing resources designed to help
+      you boost your personal brand, attract opportunities and make an impact online.
+    </p>
+    <p><strong>Explore our digital products through our sister brand — <a href="https://www.instagram.com/sevdigitalmarketing" target="_blank">@sevdigitalmarketing</a></strong></p>
+  </section>
+
+  <!-- Digital Products -->
+  <section style="margin-bottom:5rem;">
+    <h2 style="text-align:center;font-size:2rem;font-weight:600;margin-bottom:2rem;">Digital Products & Resources</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;">
+      <div style="background:#fff;border:1px solid #eee;border-radius:10px;padding:2rem;box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+        <h3 style="font-size:1.25rem;margin-bottom:0.5rem;">Digital Marketing Templates</h3>
+        <p style="color:#555;">Practical tools to help HR Consultants and small business owners build visibility, attract clients and grow confidently online.</p>
+        <a href="https://stan.store/yourlink" style="display:inline-block;margin-top:1rem;padding:0.6rem 1.5rem;background:#b68b7c;color:#fff;border-radius:30px;text-decoration:none;">Visit Stan Store</a>
+      </div>
+      <div style="background:#fff;border:1px solid #eee;border-radius:10px;padding:2rem;box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+        <h3 style="font-size:1.25rem;margin-bottom:0.5rem;">Free Digital Resources</h3>
+        <p style="color:#555;">From workbooks to hiring guides, explore free resources to support your growth and get inspired.</p>
+        <a href="https://stan.store/yourlink" style="display:inline-block;margin-top:1rem;padding:0.6rem 1.5rem;background:#b68b7c;color:#fff;border-radius:30px;text-decoration:none;">Explore Freebies</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Freebies Section -->
+  <section style="background:#fafafa;border-radius:12px;padding:3rem 2rem;margin-bottom:5rem;">
+    <h2 style="text-align:center;font-size:1.8rem;margin-bottom:2rem;">Freebies</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2rem;max-width:900px;margin:0 auto;">
+      <div style="background:#fff;border:1px solid #eee;padding:1.5rem;border-radius:10px;">
+        <h3 style="margin-bottom:0.5rem;">Freebie 1</h3>
+        <p style="font-weight:600;">The HR Consultants Digital Product Guide</p>
+        <p style="color:#555;">A guide for HR Consultants who want to create digital products.</p>
+        <a href="https://stan.store/yourlink" style="color:#b68b7c;text-decoration:none;font-weight:600;">Download →</a>
+      </div>
+      <div style="background:#fff;border:1px solid #eee;padding:1.5rem;border-radius:10px;">
+        <h3 style="margin-bottom:0.5rem;">Freebie 2</h3>
+        <p style="font-weight:600;">Finding The Right VA</p>
+        <p style="color:#555;">A practical workbook for HR Consultants.</p>
+        <a href="https://stan.store/yourlink" style="color:#b68b7c;text-decoration:none;font-weight:600;">Download →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Affiliate Partners -->
+  <section style="margin-bottom:5rem;">
+    <h2 style="text-align:center;font-size:2rem;font-weight:600;margin-bottom:2rem;">Affiliate Partners</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;">
+      <!-- Partner 1 -->
+      <div style="background:#fff;border:1px solid #eee;border-radius:10px;padding:2rem;box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+        <h3 style="font-size:1.25rem;margin-bottom:0.5rem;">BreatheHR Software</h3>
+        <p style="color:#555;">Save time and costs with HR software loved by 16,000+ UK SMEs. Streamline workflows, secure data and report trends easily.</p>
+        <a href="https://link-to-breathehr.com" style="display:inline-block;margin-top:1rem;padding:0.6rem 1.5rem;background:#b68b7c;color:#fff;border-radius:30px;text-decoration:none;">Sign up</a>
+      </div>
+
+      <!-- Partner 2 -->
+      <div style="background:#fff;border:1px solid #eee;border-radius:10px;padding:2rem;box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+        <h3 style="font-size:1.25rem;margin-bottom:0.5rem;">SMGB Business Academy</h3>
+        <p style="color:#555;">A CPD-accredited digital marketing course by Joanna Lopez. Learn to create digital products, sales funnels, and passive income systems.</p>
+        <a href="https://link-to-smgb.com" style="display:inline-block;margin-top:1rem;padding:0.6rem 1.5rem;background:#b68b7c;color:#fff;border-radius:30px;text-decoration:none;">Learn More</a>
+      </div>
+
+      <!-- Partner 3 -->
+      <div style="background:#fff;border:1px solid #eee;border-radius:10px;padding:2rem;box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+        <h3 style="font-size:1.25rem;margin-bottom:0.5rem;">AI Personal Brand Kit</h3>
+        <p style="color:#555;">Create realistic photos & videos of you in minutes with AI. Go viral from your couch — no camera or design skills needed.</p>
+        <a href="https://stan.store/yourlink" style="display:inline-block;margin-top:1rem;padding:0.6rem 1.5rem;background:#b68b7c;color:#fff;border-radius:30px;text-decoration:none;">Find Out More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instagram CTA -->
+  <section style="text-align:center;padding:3rem 1rem;background:#fafafa;border-radius:12px;">
+    <h2 style="font-size:1.8rem;margin-bottom:0.5rem;">Follow Us on Instagram</h2>
+    <p style="color:#555;margin-bottom:1.5rem;">@sevdigitalmarketing — tips, motivation & behind-the-scenes insights.</p>
+    <a href="https://instagram.com/sevdigitalmarketing" target="_blank" style="display:inline-block;padding:0.8rem 2rem;background:#b68b7c;color:#fff;border-radius:30px;text-decoration:none;">Say Hello</a>
+  </section>
+</div>
