@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HR Reach Shop</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: #ffffff;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    .menu-toggle {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .menu-toggle span {
+      height: 3px;
+      width: 25px;
+      background: #004080;
+      margin: 4px 0;
+      border-radius: 2px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #004080;
+      font-weight: 500;
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #ffffff;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        border: 1px solid #ddd;
+        padding: 1rem;
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .menu-toggle {
+        display: flex;
+      }
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #004080;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      margin-top: 1.5rem;
+      font-size: 1.2rem;
+      color: #004080;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    button {
+      background: #004080;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      margin-top: 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+
+    .spacer {
+      margin-top: 2rem;
+    }
+
+    footer {
+      background: #f0f0f0;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo">
+    <img src="hrreach-logo.png" alt="HR Reach Logo" />
+  </div>
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="nav-links" id="navLinks">
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Shop</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+<section>
+  <h2>Explore Our Digital Products</h2>
+  <p>We create practical, easy-to-use digital tools, templates and guides to help HR Consultants and small business owners build visibility, attract clients and grow confidently online.</p>
+  <p>Explore our digital products through our sister brand – <strong>@sevdigitalmarketing</strong>.</p>
+</section>
+
+<section>
+  <h2>Free Resources</h2>
+  <h3>FREEBIE 1: Digital Product Guide</h3>
+  <p>A guide for HR Consultants who want to create digital products.</p>
+  <button>Download Free</button>
+
+  <h3>FREEBIE 2: VA Hiring Workbook</h3>
+  <p>A practical workbook for HR Consultants hiring their first VA.</p>
+  <button>Download Free</button>
+
+  <div class="spacer">
+    <p>Visit our Stan Store to explore all products and freebies in one place:</p>
+    <button>Visit Stan Store</button>
+  </div>
+</section>
+
+<section>
+  <h2>Connect with Us</h2>
+  <p>If you’re curious about digital marketing, want to start building your online presence, or simply enjoy learning new business skills, come and say hello on Instagram: <strong>@sevdigitalmarketing</strong>.</p>
+</section>
+
+<section>
+  <h2>Affiliate Partners</h2>
+
+  <h3>Partner 1: BreatheHR Software</h3>
+  <p>We can help you save time and costs with easy-to-use HR software loved by 16,000+ UK SMEs:</p>
+  <ul>
+    <li>Streamlines your entire HR workflow</li>
+    <li>Keeps your data safe and secure</li>
+    <li>Flexible, commitment-free plans</li>
+    <li>Explore and report trends easily</li>
+  </ul>
+  <button>Sign Up for BreatheHR</button>
+
+  <h3>Partner 2: SMGB Business Academy</h3>
+  <p>A CPD-accredited digital marketing course that teaches you how to:</p>
+  <ul>
+    <li>Build an online business from the ground up</li>
+    <li>Create and monetise digital products</li>
+    <li>Develop branding, sales, and content marketing skills</li>
+  </ul>
+  <button>Explore Course</button>
+
+  <h3>Partner 3: AI Personal Brand Kit</h3>
+  <p>Create realistic AI content that sells for you — no camera, glam or design skills needed.</p>
+  <button>Try It Now</button>
+</section>
+
+<footer>
+  Start exploring today — grow your brand, your confidence and your digital reach.
+</footer>
+
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById('navLinks');
+    nav.classList.toggle('active');
+  }
+</script>
+
+</body>
+</html>
