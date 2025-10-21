@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Reach | Digital Shop</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind for custom colors and Inter font -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'hr-primary': '#1D4ED8', // A corporate blue for primary actions (Matches professional tone)
+                        'hr-accent': '#F59E0B',  // Amber for emphasis/freebies
+                        'hr-bg': '#F9FAFB',      // Light gray background
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom scrollbar styling for a cleaner look */
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .header-shadow {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+        }
+        .product-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        /* Refined hover effect for a more subtle, professional feel */
+        .product-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-hr-bg text-gray-800">
+
+    <!-- Header / Navigation (Mimicking typical website structure) -->
+    <header class="sticky top-0 z-50 bg-white header-shadow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="https://hrreach.co.uk/" class="text-2xl font-bold text-hr-primary">HR Reach</a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="https://hrreach.co.uk/" class="text-gray-600 hover:text-hr-primary transition duration-150">Home</a>
+                <a href="https://hrreach.co.uk/services/" class="text-gray-600 hover:text-hr-primary transition duration-150">Services</a>
+                <a href="#" class="text-hr-primary font-semibold">Shop</a>
+                <a href="https://hrreach.co.uk/contact-2/" class="text-gray-600 hover:text-hr-primary transition duration-150">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        
+        <!-- Shop Introduction - Updated Copy -->
+        <div class="text-center mb-16">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4">Professional Template & Digital Solutions</h1>
+            <p class="text-xl text-gray-600 max-w-4xl mx-auto">Access our ready-to-use, time-saving digital products and templates designed to streamline your HR project management, organize your workflow, and elevate your consultancy business.</p>
+        </div>
+
+        <!-- 1. Featured Digital Products (External Stan Store) -->
+        <section class="mb-20">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 border-b-2 border-hr-primary pb-2">Full Digital Product Collection</h2>
+            
+            <div class="product-card bg-white p-8 rounded-xl shadow-lg border border-gray-100 flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
+                <div class="flex-shrink-0 text-hr-primary">
+                    <!-- Icon for Templates/Documents -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                </div>
+                <div class="flex-grow text-center md:text-left">
+                    <h3 class="text-2xl font-bold text-gray-900">Explore All Our Digital Tools & Templates</h3>
+                    <p class="mt-2 text-lg text-gray-600">Browse the full range of practical, easy-to-use digital tools and templates on our sister brand's official store for building your brand and attracting clients.</p>
+                </div>
+                <a href="https://stan.store/sevdigitalmarketing" target="_blank" class="w-full md:w-auto mt-4 md:mt-0 px-8 py-3 bg-hr-primary text-white font-semibold rounded-lg hover:bg-hr-primary/90 transition duration-300 shadow-md text-center">
+                    Visit Stan Store &rarr;
+                </a>
+            </div>
+        </section>
+
+
+        <!-- 2. Free Resources -->
+        <section class="mb-20">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 border-b-2 border-hr-accent pb-2">Free Downloads to Get You Started</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Freebie 1: Digital Product Guide -->
+                <div class="product-card bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                    <span class="inline-block px-3 py-1 text-sm font-semibold bg-hr-accent/10 text-hr-accent rounded-full mb-4">FREE RESOURCE</span>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">The HR Consultants Digital Product Guide</h3>
+                    <p class="text-gray-600 mb-6 flex-grow">A comprehensive guide for HR Consultants looking to understand and start creating their own profitable digital products.</p>
+                    <a href="https://stan.store/sevdigitalmarketing" target="_blank" class="block w-full text-center px-4 py-2 bg-hr-accent text-white font-semibold rounded-lg hover:bg-hr-accent/90 transition duration-300 shadow-md">
+                        Download Now
+                    </a>
+                </div>
+
+                <!-- Freebie 2: VA Workbook -->
+                <div class="product-card bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                    <span class="inline-block px-3 py-1 text-sm font-semibold bg-hr-accent/10 text-hr-accent rounded-full mb-4">FREE RESOURCE</span>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Finding The Right VA Practical Workbook</h3>
+                    <p class="text-gray-600 mb-6 flex-grow">A practical, step-by-step workbook to help HR Consultants successfully hire and integrate the perfect Virtual Assistant into their team.</p>
+                    <a href="https://stan.store/sevdigitalmarketing" target="_blank" class="block w-full text-center px-4 py-2 bg-hr-accent text-white font-semibold rounded-lg hover:bg-hr-accent/90 transition duration-300 shadow-md">
+                        Download Now
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 3. Recommended Partner Tools -->
+        <section>
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 border-b-2 border-gray-300 pb-2">Recommended Partner Tools</h2>
+            <p class="text-lg text-gray-600 mb-8">We proudly affiliate with tools and courses that have genuinely accelerated our own digital journey.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Partner 1: BreatheHR -->
+                <div class="product-card bg-white p-6 rounded-xl shadow-lg border border-gray-100 flex flex-col">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">BreatheHR Software</h3>
+                    <span class="text-sm font-medium text-gray-500 mb-4">HR Management System</span>
+                    <p class="text-gray-600 mb-6 flex-grow">Streamline your entire HR workflow, keep data secure, and explore trends with this easy-to-use solution loved by 16,000+ UK SMEs.</p>
+                    <a href="https://www.breathehr.com/en-gb/sign-up?hrp=HRR34CH54" target="_blank" class="block w-full text-center px-4 py-2 bg-hr-primary text-white font-semibold rounded-lg hover:bg-hr-primary/90 transition duration-300 shadow-md mt-auto">
+                        Learn More
+                    </a>
+                </div>
+
+                <!-- Partner 2: SMGB Course -->
+                <div class="product-card bg-white p-6 rounded-xl shadow-lg border border-gray-100 flex flex-col">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">SMGB Business Academy (CPD Approved)</h3>
+                    <span class="text-sm font-medium text-gray-500 mb-4">Digital Marketing Course</span>
+                    <p class="text-gray-600 mb-6 flex-grow">A step-by-step course on building an online business, creating and monetizing digital products, and mastering sales funnels for passive income.</p>
+                    <a href="https://stan.store/sevdigitalmarketing" target="_blank" class="block w-full text-center px-4 py-2 bg-hr-primary text-white font-semibold rounded-lg hover:bg-hr-primary/90 transition duration-300 shadow-md mt-auto">
+                        See Course Details
+                    </a>
+                </div>
+
+                <!-- Partner 3: AI Brand Kit -->
+                <div class="product-card bg-white p-6 rounded-xl shadow-lg border border-gray-100 flex flex-col">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">AI Personal Brand Kit</h3>
+                    <span class="text-sm font-medium text-gray-500 mb-4">Katya Varbanova's Tool</span>
+                    <p class="text-gray-600 mb-6 flex-grow">Create realistic AI photos and videos of yourself in minutes. Build an AI version of you that helps you go viral—no camera or glam needed!</p>
+                    <a href="https://stan.store/sevdigitalmarketing" target="_blank" class="block w-full text-center px-4 py-2 bg-hr-primary text-white font-semibold rounded-lg hover:bg-hr-primary/90 transition duration-300 shadow-md mt-auto">
+                        View AI Kit
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center">
+            <p>&copy; 2025 HR Reach. All rights reserved. | Powered by <a href="https://www.instagram.com/sevdigitalmarketing/" target="_blank" class="text-hr-accent hover:underline">@sevdigitalmarketing</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
